@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create Your To Do List Account</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="createaccountpage.css">
+  </head>
+  <body>
+    <Header class="header">
+      <div>Create Your Account For Free Now!</div>
+    </Header>
+
+    <main>
+      <div class="instruction"> Create Your Username: </div>
+      <input id="new_username_content" type="text" placeholder="Enter a new username for your account"/>
+
+      <div class="instruction"> Create Your Password: </div>
+      <input id="new_password_content" type="password" placeholder="Enter a password for your account"/>
+
+      <div class="instruction" id="confirmpassword-instruction"> Re-enter Password: </div>
+      <input id="confirm_password_content" type="password" placeholder="Confirm your password"/>
+
+      <button class="submit-button" onclick="onSubmit()">Submit</button>
+    </main>
+
+    <script src="../js/jQuery.js"></script>
+    <script src="createaccountpage.js"></script>
+  </body>
+</html>

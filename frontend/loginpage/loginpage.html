@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <title>Login Page</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="loginpage.css">
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="introduction">Welcome to My To-Do List!</div>
+      <div class="signature">By Bruce Zhu</div>
+    </header>
+    <main>
+      <div class="instruction">To View Your To-Dos, Please Login!</div>
+
+      <div class="info-div">
+        <div class="input-section">
+          <div class="username-div">Username:</div>
+          <input class="username-input" id="username_content" type="text" placeholder="Enter Your Username"/>
+          
+          <div class="password-section">
+            <div class="password-div">Password:</div>
+            <input class="password-input" id="password_content" type="password" placeholder="Enter Your Password" />
+          </div>
+          
+        </div>
+        <div class="button-div">
+          <button class="login-button" onclick="onLogin()">Login</button>
+          <button class="create-account-button" onclick="redirectCreateAccount()">Create Account</button>
+        </div>
+        
+      </div>
+
+      <script src="../js/jQuery.js"></script>
+      <script src="loginpage.js"></script>
+    </main>
+  </body>
+</html>

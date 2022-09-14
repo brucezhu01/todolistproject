@@ -1,0 +1,104 @@
+body {
+  margin: 0px;
+  font-family: Raleway, Roboto, Arial;
+}
+
+.header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(78, 42, 132);
+}
+
+.header div {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.introduction {
+  font-size: 45px;
+}
+
+.signature {
+  margin-top: 15px;
+  font-size: 23px;
+}
+
+.instruction {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: rgb(78, 42, 132);
+  font-size: 20px;
+}
+
+.info-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.input-section {
+  position: relative;
+  margin-top: 10px;
+}
+
+.username-div,
+.password-div{
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-size: 20px;
+  color:rgb(78, 42, 132);
+  font-weight: bold;
+}
+
+.input-section input{
+  font-size: 15px;
+  font-family: Raleway;
+  height: 27px;
+  width: 300px;
+  margin-top: 5px;
+  padding-left: 10px;
+}
+
+.password-section {
+  margin-top: 20px;
+}
+
+.username-input::placeholder,
+.password-input::placeholder { 
+  color: gray;
+  font-size: 15px;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.login-button,
+.create-account-button { 
+  background-color: rgb(78, 42, 132);
+  font-family: Raleway;
+  color: white;
+  font-size: 17px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login-button:hover,
+.create-account-button:hover {
+  opacity: 0.7;
+  box-shadow:rgba(108, 108, 108, 0.657) 2px 2px 2px;
+}

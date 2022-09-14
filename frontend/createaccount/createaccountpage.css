@@ -1,0 +1,81 @@
+body {
+  margin: 0px;
+  font-family: Raleway, Roboto, Arial;
+}
+
+.header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(78, 42, 132);
+}
+
+.header div {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 45px;
+}
+
+main {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  right: 70px;
+}
+
+.instruction {
+  margin-bottom: 5px;
+  margin-top: 25px;
+  font-size: 20px;
+  color:rgb(78, 42, 132);
+  font-weight: bold;
+}
+
+#confirmpassword-instruction {
+  position: relative;
+  right: 12px;
+}
+
+main input{
+  position: relative;
+  font-size: 15px;
+  font-family: Raleway;
+  margin-top: 5px;
+  left: 45px;
+  height: 27px;
+  width: 300px;
+  padding-left: 10px;
+}
+
+main input::placeholder{
+  color: gray;
+  font-size: 15px;
+  font-family: Raleway;
+}
+
+.submit-button {
+  position: relative;
+  left: 30px;
+  background-color: rgb(78, 42, 132);
+  font-family: Raleway;
+  color: white;
+  font-size: 17px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  opacity: 0.7;
+  box-shadow:rgba(108, 108, 108, 0.657) 2px 2px 2px;
+}

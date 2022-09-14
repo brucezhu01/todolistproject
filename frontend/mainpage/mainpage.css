@@ -1,0 +1,67 @@
+body {
+  margin: 0px;
+  font-family: Raleway, Roboto, Arial;
+}
+
+.header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(78, 42, 132);
+}
+
+.header div {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 45px;
+}
+
+.reminder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  color: rgb(78, 42, 132);
+  font-size: 20px;
+}
+
+.view-todo{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.view-todo button{
+  background-color: rgb(78, 42, 132);
+  font-family: Raleway;
+  color: white;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 5px;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.view-todo button:hover{
+  opacity: 0.7;
+  box-shadow:rgba(108, 108, 108, 0.657) 2px 2px 2px;
+}
+
+.todo-title {
+  height: 32px;
+  width: 150px;
+  font-size: 14px;
+  padding-bottom: 2px;
+  font-family: Raleway;
+}
+
+.date-picker {
+  height: 35px;
+  font-size: 14px;
+  font-family: Raleway;
+}

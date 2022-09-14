@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> My Todo App</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="mainpage.css">
+  </head>
+  <body>
+    <header class="header"> 
+      <div>Welcome to Your Personal Todo List App</div>
+    </header>
+    <main>
+      <section class="reminder">Focus! Have you done all your work today?</section>
+      <section class="view-todo">
+        <div class="add-todo-section">
+        <input class="todo-title" id="todo-title" type="text" placeholder="Add New Todos Here!"/>
+        <input class="date-picker" id="date-picker" type="date">
+        <button onclick="onCreate()">Add Todo</button>
+        <div id="todo-list"></div>
+      </section>
+    </main>
+    
+
+    <script src="../js/jQuery.js"></script>
+    <script src="mainpage.js"></script>
+    
+  </body>
+</html>
+
